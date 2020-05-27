@@ -1,0 +1,11 @@
+/* Module Name : DELAY
+ * File Name   : DELAY_interface.h
+ * Author      : Bishoy Nabil
+ * Version     : 1.0
+ * Date        : before 13/4/2020 */
+
+/* this module is used only for 72 MHz system clock */
+
+#include "STD_TYPES.h"
+
+void delay_ms(u32 value);

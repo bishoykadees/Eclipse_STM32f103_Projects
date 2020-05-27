@@ -1,0 +1,11 @@
+02:17:37 **** Incremental Build of configuration Debug for project LIN_SLAVE ****
+make all 
+Invoking: Cross ARM GNU Print Size
+arm-none-eabi-size --format=berkeley "LIN_SLAVE.elf"
+   text	   data	    bss	    dec	    hex	filename
+   9491	    196	    656	  10343	   2867	LIN_SLAVE.elf
+Finished building: LIN_SLAVE.siz
+ 
+
+02:17:37 Build Finished (took 397ms)
+

@@ -1,0 +1,11 @@
+06:31:46 **** Incremental Build of configuration Debug for project ARM_test_Systick ****
+make all 
+Invoking: Cross ARM GNU Print Size
+arm-none-eabi-size --format=berkeley "ARM_test_Systick.elf"
+   text	   data	    bss	    dec	    hex	filename
+   9235	    180	    440	   9855	   267f	ARM_test_Systick.elf
+Finished building: ARM_test_Systick.siz
+ 
+
+06:31:46 Build Finished (took 375ms)
+

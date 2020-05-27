@@ -1,0 +1,11 @@
+17:12:46 **** Incremental Build of configuration Debug for project ARM_Buzzer_using_Keypad ****
+make all 
+Invoking: Cross ARM GNU Print Size
+arm-none-eabi-size --format=berkeley "ARM_Buzzer_using_Keypad.elf"
+   text	   data	    bss	    dec	    hex	filename
+   5591	    192	    412	   6195	   1833	ARM_Buzzer_using_Keypad.elf
+Finished building: ARM_Buzzer_using_Keypad.siz
+ 
+
+17:12:47 Build Finished (took 258ms)
+

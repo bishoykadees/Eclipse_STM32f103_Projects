@@ -1,0 +1,15 @@
+/*
+ * SHEDULAR.c
+ *
+ *  Created on: Mar 27, 2020
+ *      Author: Lenovo
+ */
+
+#include "SYSTICK_interface.h"
+#include "SCHEDULAR.h"
+
+#define MAX                  100
+
+static Task_t *SysTasks[MAX];
+
+

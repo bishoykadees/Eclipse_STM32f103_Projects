@@ -1,0 +1,11 @@
+13:38:02 **** Build of configuration Debug for project ARM_LED_Matrix ****
+make all 
+Invoking: Cross ARM GNU Print Size
+arm-none-eabi-size --format=berkeley "ARM_LED_Matrix.elf"
+   text	   data	    bss	    dec	    hex	filename
+   6943	    176	    412	   7531	   1d6b	ARM_LED_Matrix.elf
+Finished building: ARM_LED_Matrix.siz
+ 
+
+13:38:02 Build Finished (took 403ms)
+

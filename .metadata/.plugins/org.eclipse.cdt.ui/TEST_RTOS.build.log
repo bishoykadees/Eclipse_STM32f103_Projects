@@ -1,0 +1,144 @@
+00:44:31 **** Incremental Build of configuration Debug for project TEST_RTOS ****
+make all 
+Building file: ../Third_Party/Source/portable/MemMang/heap_4.c
+Invoking: Cross ARM GNU C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I"D:\ITI\01-ASSAF\ARM_SDK\ARM_Projects\TEST_RTOS\STM32F10xFWLib\inc" -I"D:\ITI\01-ASSAF\ARM_SDK\ARM_Projects\TEST_RTOS\common" -I"D:\ITI\01-ASSAF\ARM_SDK\ARM_Projects\TEST_RTOS\Third_Party\Source\portable\GCC\ARM_CM3" -I"D:\ITI\01-ASSAF\ARM_SDK\ARM_Projects\TEST_RTOS" -I"D:\ITI\01-ASSAF\ARM_SDK\ARM_Projects\TEST_RTOS\Third_Party\Source\include" -std=gnu11 -MMD -MP -MF"Third_Party/Source/portable/MemMang/heap_4.d" -MT"Third_Party/Source/portable/MemMang/heap_4.o" -c -o "Third_Party/Source/portable/MemMang/heap_4.o" "../Third_Party/Source/portable/MemMang/heap_4.c"
+Finished building: ../Third_Party/Source/portable/MemMang/heap_4.c
+ 
+Building file: ../Third_Party/Source/portable/GCC/ARM_CM3/port.c
+Invoking: Cross ARM GNU C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I"D:\ITI\01-ASSAF\ARM_SDK\ARM_Projects\TEST_RTOS\STM32F10xFWLib\inc" -I"D:\ITI\01-ASSAF\ARM_SDK\ARM_Projects\TEST_RTOS\common" -I"D:\ITI\01-ASSAF\ARM_SDK\ARM_Projects\TEST_RTOS\Third_Party\Source\portable\GCC\ARM_CM3" -I"D:\ITI\01-ASSAF\ARM_SDK\ARM_Projects\TEST_RTOS" -I"D:\ITI\01-ASSAF\ARM_SDK\ARM_Projects\TEST_RTOS\Third_Party\Source\include" -std=gnu11 -MMD -MP -MF"Third_Party/Source/portable/GCC/ARM_CM3/port.d" -MT"Third_Party/Source/portable/GCC/ARM_CM3/port.o" -c -o "Third_Party/Source/portable/GCC/ARM_CM3/port.o" "../Third_Party/Source/portable/GCC/ARM_CM3/port.c"
+Finished building: ../Third_Party/Source/portable/GCC/ARM_CM3/port.c
+ 
+Building file: ../Third_Party/Source/croutine.c
+Invoking: Cross ARM GNU C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I"D:\ITI\01-ASSAF\ARM_SDK\ARM_Projects\TEST_RTOS\STM32F10xFWLib\inc" -I"D:\ITI\01-ASSAF\ARM_SDK\ARM_Projects\TEST_RTOS\common" -I"D:\ITI\01-ASSAF\ARM_SDK\ARM_Projects\TEST_RTOS\Third_Party\Source\portable\GCC\ARM_CM3" -I"D:\ITI\01-ASSAF\ARM_SDK\ARM_Projects\TEST_RTOS" -I"D:\ITI\01-ASSAF\ARM_SDK\ARM_Projects\TEST_RTOS\Third_Party\Source\include" -std=gnu11 -MMD -MP -MF"Third_Party/Source/croutine.d" -MT"Third_Party/Source/croutine.o" -c -o "Third_Party/Source/croutine.o" "../Third_Party/Source/croutine.c"
+Finished building: ../Third_Party/Source/croutine.c
+ 
+Building file: ../Third_Party/Source/event_groups.c
+Invoking: Cross ARM GNU C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I"D:\ITI\01-ASSAF\ARM_SDK\ARM_Projects\TEST_RTOS\STM32F10xFWLib\inc" -I"D:\ITI\01-ASSAF\ARM_SDK\ARM_Projects\TEST_RTOS\common" -I"D:\ITI\01-ASSAF\ARM_SDK\ARM_Projects\TEST_RTOS\Third_Party\Source\portable\GCC\ARM_CM3" -I"D:\ITI\01-ASSAF\ARM_SDK\ARM_Projects\TEST_RTOS" -I"D:\ITI\01-ASSAF\ARM_SDK\ARM_Projects\TEST_RTOS\Third_Party\Source\include" -std=gnu11 -MMD -MP -MF"Third_Party/Source/event_groups.d" -MT"Third_Party/Source/event_groups.o" -c -o "Third_Party/Source/event_groups.o" "../Third_Party/Source/event_groups.c"
+Finished building: ../Third_Party/Source/event_groups.c
+ 
+Building file: ../Third_Party/Source/list.c
+Invoking: Cross ARM GNU C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I"D:\ITI\01-ASSAF\ARM_SDK\ARM_Projects\TEST_RTOS\STM32F10xFWLib\inc" -I"D:\ITI\01-ASSAF\ARM_SDK\ARM_Projects\TEST_RTOS\common" -I"D:\ITI\01-ASSAF\ARM_SDK\ARM_Projects\TEST_RTOS\Third_Party\Source\portable\GCC\ARM_CM3" -I"D:\ITI\01-ASSAF\ARM_SDK\ARM_Projects\TEST_RTOS" -I"D:\ITI\01-ASSAF\ARM_SDK\ARM_Projects\TEST_RTOS\Third_Party\Source\include" -std=gnu11 -MMD -MP -MF"Third_Party/Source/list.d" -MT"Third_Party/Source/list.o" -c -o "Third_Party/Source/list.o" "../Third_Party/Source/list.c"
+Finished building: ../Third_Party/Source/list.c
+ 
+Building file: ../Third_Party/Source/queue.c
+Invoking: Cross ARM GNU C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I"D:\ITI\01-ASSAF\ARM_SDK\ARM_Projects\TEST_RTOS\STM32F10xFWLib\inc" -I"D:\ITI\01-ASSAF\ARM_SDK\ARM_Projects\TEST_RTOS\common" -I"D:\ITI\01-ASSAF\ARM_SDK\ARM_Projects\TEST_RTOS\Third_Party\Source\portable\GCC\ARM_CM3" -I"D:\ITI\01-ASSAF\ARM_SDK\ARM_Projects\TEST_RTOS" -I"D:\ITI\01-ASSAF\ARM_SDK\ARM_Projects\TEST_RTOS\Third_Party\Source\include" -std=gnu11 -MMD -MP -MF"Third_Party/Source/queue.d" -MT"Third_Party/Source/queue.o" -c -o "Third_Party/Source/queue.o" "../Third_Party/Source/queue.c"
+Finished building: ../Third_Party/Source/queue.c
+ 
+Building file: ../Third_Party/Source/stream_buffer.c
+Invoking: Cross ARM GNU C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I"D:\ITI\01-ASSAF\ARM_SDK\ARM_Projects\TEST_RTOS\STM32F10xFWLib\inc" -I"D:\ITI\01-ASSAF\ARM_SDK\ARM_Projects\TEST_RTOS\common" -I"D:\ITI\01-ASSAF\ARM_SDK\ARM_Projects\TEST_RTOS\Third_Party\Source\portable\GCC\ARM_CM3" -I"D:\ITI\01-ASSAF\ARM_SDK\ARM_Projects\TEST_RTOS" -I"D:\ITI\01-ASSAF\ARM_SDK\ARM_Projects\TEST_RTOS\Third_Party\Source\include" -std=gnu11 -MMD -MP -MF"Third_Party/Source/stream_buffer.d" -MT"Third_Party/Source/stream_buffer.o" -c -o "Third_Party/Source/stream_buffer.o" "../Third_Party/Source/stream_buffer.c"
+Finished building: ../Third_Party/Source/stream_buffer.c
+ 
+Building file: ../Third_Party/Source/tasks.c
+Invoking: Cross ARM GNU C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I"D:\ITI\01-ASSAF\ARM_SDK\ARM_Projects\TEST_RTOS\STM32F10xFWLib\inc" -I"D:\ITI\01-ASSAF\ARM_SDK\ARM_Projects\TEST_RTOS\common" -I"D:\ITI\01-ASSAF\ARM_SDK\ARM_Projects\TEST_RTOS\Third_Party\Source\portable\GCC\ARM_CM3" -I"D:\ITI\01-ASSAF\ARM_SDK\ARM_Projects\TEST_RTOS" -I"D:\ITI\01-ASSAF\ARM_SDK\ARM_Projects\TEST_RTOS\Third_Party\Source\include" -std=gnu11 -MMD -MP -MF"Third_Party/Source/tasks.d" -MT"Third_Party/Source/tasks.o" -c -o "Third_Party/Source/tasks.o" "../Third_Party/Source/tasks.c"
+Finished building: ../Third_Party/Source/tasks.c
+ 
+Building file: ../Third_Party/Source/timers.c
+Invoking: Cross ARM GNU C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I"D:\ITI\01-ASSAF\ARM_SDK\ARM_Projects\TEST_RTOS\STM32F10xFWLib\inc" -I"D:\ITI\01-ASSAF\ARM_SDK\ARM_Projects\TEST_RTOS\common" -I"D:\ITI\01-ASSAF\ARM_SDK\ARM_Projects\TEST_RTOS\Third_Party\Source\portable\GCC\ARM_CM3" -I"D:\ITI\01-ASSAF\ARM_SDK\ARM_Projects\TEST_RTOS" -I"D:\ITI\01-ASSAF\ARM_SDK\ARM_Projects\TEST_RTOS\Third_Party\Source\include" -std=gnu11 -MMD -MP -MF"Third_Party/Source/timers.d" -MT"Third_Party/Source/timers.o" -c -o "Third_Party/Source/timers.o" "../Third_Party/Source/timers.c"
+Finished building: ../Third_Party/Source/timers.c
+ 
+Building file: ../main.c
+Invoking: Cross ARM GNU C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I"D:\ITI\01-ASSAF\ARM_SDK\ARM_Projects\TEST_RTOS\STM32F10xFWLib\inc" -I"D:\ITI\01-ASSAF\ARM_SDK\ARM_Projects\TEST_RTOS\common" -I"D:\ITI\01-ASSAF\ARM_SDK\ARM_Projects\TEST_RTOS\Third_Party\Source\portable\GCC\ARM_CM3" -I"D:\ITI\01-ASSAF\ARM_SDK\ARM_Projects\TEST_RTOS" -I"D:\ITI\01-ASSAF\ARM_SDK\ARM_Projects\TEST_RTOS\Third_Party\Source\include" -std=gnu11 -MMD -MP -MF"main.d" -MT"main.o" -c -o "main.o" "../main.c"
+Finished building: ../main.c
+ 
+Building file: ../spi_flash.c
+Invoking: Cross ARM GNU C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I"D:\ITI\01-ASSAF\ARM_SDK\ARM_Projects\TEST_RTOS\STM32F10xFWLib\inc" -I"D:\ITI\01-ASSAF\ARM_SDK\ARM_Projects\TEST_RTOS\common" -I"D:\ITI\01-ASSAF\ARM_SDK\ARM_Projects\TEST_RTOS\Third_Party\Source\portable\GCC\ARM_CM3" -I"D:\ITI\01-ASSAF\ARM_SDK\ARM_Projects\TEST_RTOS" -I"D:\ITI\01-ASSAF\ARM_SDK\ARM_Projects\TEST_RTOS\Third_Party\Source\include" -std=gnu11 -MMD -MP -MF"spi_flash.d" -MT"spi_flash.o" -c -o "spi_flash.o" "../spi_flash.c"
+Finished building: ../spi_flash.c
+ 
+Building file: ../timertest.c
+Invoking: Cross ARM GNU C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I"D:\ITI\01-ASSAF\ARM_SDK\ARM_Projects\TEST_RTOS\STM32F10xFWLib\inc" -I"D:\ITI\01-ASSAF\ARM_SDK\ARM_Projects\TEST_RTOS\common" -I"D:\ITI\01-ASSAF\ARM_SDK\ARM_Projects\TEST_RTOS\Third_Party\Source\portable\GCC\ARM_CM3" -I"D:\ITI\01-ASSAF\ARM_SDK\ARM_Projects\TEST_RTOS" -I"D:\ITI\01-ASSAF\ARM_SDK\ARM_Projects\TEST_RTOS\Third_Party\Source\include" -std=gnu11 -MMD -MP -MF"timertest.d" -MT"timertest.o" -c -o "timertest.o" "../timertest.c"
+Finished building: ../timertest.c
+ 
+Building target: TEST_RTOS.elf
+Invoking: Cross ARM GNU C Linker
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -Xlinker --gc-sections -Wl,-Map,"TEST_RTOS.map" -o "TEST_RTOS.elf"  ./Third_Party/Source/portable/MemMang/heap_4.o  ./Third_Party/Source/portable/GCC/ARM_CM3/port.o  ./Third_Party/Source/croutine.o ./Third_Party/Source/event_groups.o ./Third_Party/Source/list.o ./Third_Party/Source/queue.o ./Third_Party/Source/stream_buffer.o ./Third_Party/Source/tasks.o ./Third_Party/Source/timers.o  ./main.o ./spi_flash.o ./timertest.o   
+d:/iti/01-assaf/arm_sdk/winarm/armgcc/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m\libg.a(lib_a-exit.o): In function `exit':
+exit.c:(.text.exit+0x16): undefined reference to `_exit'
+./main.o: In function `main':
+D:\ITI\01-ASSAF\ARM_SDK\ARM_Projects\TEST_RTOS\Debug/../main.c:187: undefined reference to `vStartBlockingQueueTasks'
+D:\ITI\01-ASSAF\ARM_SDK\ARM_Projects\TEST_RTOS\Debug/../main.c:188: undefined reference to `vCreateBlockTimeTasks'
+D:\ITI\01-ASSAF\ARM_SDK\ARM_Projects\TEST_RTOS\Debug/../main.c:189: undefined reference to `vStartSemaphoreTasks'
+D:\ITI\01-ASSAF\ARM_SDK\ARM_Projects\TEST_RTOS\Debug/../main.c:190: undefined reference to `vStartPolledQueueTasks'
+D:\ITI\01-ASSAF\ARM_SDK\ARM_Projects\TEST_RTOS\Debug/../main.c:191: undefined reference to `vStartIntegerMathTasks'
+D:\ITI\01-ASSAF\ARM_SDK\ARM_Projects\TEST_RTOS\Debug/../main.c:192: undefined reference to `vStartLEDFlashTasks'
+D:\ITI\01-ASSAF\ARM_SDK\ARM_Projects\TEST_RTOS\Debug/../main.c:193: undefined reference to `vAltStartComTestTasks'
+D:\ITI\01-ASSAF\ARM_SDK\ARM_Projects\TEST_RTOS\Debug/../main.c:202: undefined reference to `vCreateSuicidalTasks'
+./main.o: In function `vLCDTask':
+D:\ITI\01-ASSAF\ARM_SDK\ARM_Projects\TEST_RTOS\Debug/../main.c:222: undefined reference to `LCD_DrawMonoPict'
+./main.o: In function `vCheckTask':
+D:\ITI\01-ASSAF\ARM_SDK\ARM_Projects\TEST_RTOS\Debug/../main.c:252: undefined reference to `xAreBlockingQueuesStillRunning'
+D:\ITI\01-ASSAF\ARM_SDK\ARM_Projects\TEST_RTOS\Debug/../main.c:256: undefined reference to `xAreBlockTimeTestTasksStillRunning'
+D:\ITI\01-ASSAF\ARM_SDK\ARM_Projects\TEST_RTOS\Debug/../main.c:260: undefined reference to `xAreSemaphoreTasksStillRunning'
+D:\ITI\01-ASSAF\ARM_SDK\ARM_Projects\TEST_RTOS\Debug/../main.c:264: undefined reference to `xArePollingQueuesStillRunning'
+D:\ITI\01-ASSAF\ARM_SDK\ARM_Projects\TEST_RTOS\Debug/../main.c:268: undefined reference to `xIsCreateTaskStillRunning'
+D:\ITI\01-ASSAF\ARM_SDK\ARM_Projects\TEST_RTOS\Debug/../main.c:272: undefined reference to `xAreIntegerMathsTaskStillRunning'
+D:\ITI\01-ASSAF\ARM_SDK\ARM_Projects\TEST_RTOS\Debug/../main.c:276: undefined reference to `xAreComTestTasksStillRunning'
+./main.o: In function `prvSetupHardware':
+D:\ITI\01-ASSAF\ARM_SDK\ARM_Projects\TEST_RTOS\Debug/../main.c:294: undefined reference to `RCC_DeInit'
+D:\ITI\01-ASSAF\ARM_SDK\ARM_Projects\TEST_RTOS\Debug/../main.c:297: undefined reference to `RCC_HSEConfig'
+D:\ITI\01-ASSAF\ARM_SDK\ARM_Projects\TEST_RTOS\Debug/../main.c:300: undefined reference to `RCC_GetFlagStatus'
+D:\ITI\01-ASSAF\ARM_SDK\ARM_Projects\TEST_RTOS\Debug/../main.c:308: undefined reference to `RCC_HCLKConfig'
+D:\ITI\01-ASSAF\ARM_SDK\ARM_Projects\TEST_RTOS\Debug/../main.c:311: undefined reference to `RCC_PCLK2Config'
+D:\ITI\01-ASSAF\ARM_SDK\ARM_Projects\TEST_RTOS\Debug/../main.c:314: undefined reference to `RCC_PCLK1Config'
+D:\ITI\01-ASSAF\ARM_SDK\ARM_Projects\TEST_RTOS\Debug/../main.c:317: undefined reference to `RCC_PLLConfig'
+D:\ITI\01-ASSAF\ARM_SDK\ARM_Projects\TEST_RTOS\Debug/../main.c:320: undefined reference to `RCC_PLLCmd'
+D:\ITI\01-ASSAF\ARM_SDK\ARM_Projects\TEST_RTOS\Debug/../main.c:323: undefined reference to `RCC_GetFlagStatus'
+D:\ITI\01-ASSAF\ARM_SDK\ARM_Projects\TEST_RTOS\Debug/../main.c:328: undefined reference to `RCC_SYSCLKConfig'
+D:\ITI\01-ASSAF\ARM_SDK\ARM_Projects\TEST_RTOS\Debug/../main.c:331: undefined reference to `RCC_GetSYSCLKSource'
+D:\ITI\01-ASSAF\ARM_SDK\ARM_Projects\TEST_RTOS\Debug/../main.c:336: undefined reference to `RCC_APB2PeriphClockCmd'
+D:\ITI\01-ASSAF\ARM_SDK\ARM_Projects\TEST_RTOS\Debug/../main.c:340: undefined reference to `RCC_APB1PeriphClockCmd'
+D:\ITI\01-ASSAF\ARM_SDK\ARM_Projects\TEST_RTOS\Debug/../main.c:344: undefined reference to `NVIC_SetVectorTable'
+D:\ITI\01-ASSAF\ARM_SDK\ARM_Projects\TEST_RTOS\Debug/../main.c:346: undefined reference to `NVIC_PriorityGroupConfig'
+D:\ITI\01-ASSAF\ARM_SDK\ARM_Projects\TEST_RTOS\Debug/../main.c:349: undefined reference to `SysTick_CLKSourceConfig'
+D:\ITI\01-ASSAF\ARM_SDK\ARM_Projects\TEST_RTOS\Debug/../main.c:351: undefined reference to `vParTestInitialise'
+./main.o: In function `prvConfigureLCD':
+D:\ITI\01-ASSAF\ARM_SDK\ARM_Projects\TEST_RTOS\Debug/../main.c:363: undefined reference to `GPIO_Init'
+D:\ITI\01-ASSAF\ARM_SDK\ARM_Projects\TEST_RTOS\Debug/../main.c:366: undefined reference to `GPIO_WriteBit'
+D:\ITI\01-ASSAF\ARM_SDK\ARM_Projects\TEST_RTOS\Debug/../main.c:369: undefined reference to `LCD_Init'
+D:\ITI\01-ASSAF\ARM_SDK\ARM_Projects\TEST_RTOS\Debug/../main.c:372: undefined reference to `LCD_SetBackColor'
+D:\ITI\01-ASSAF\ARM_SDK\ARM_Projects\TEST_RTOS\Debug/../main.c:375: undefined reference to `LCD_SetTextColor'
+D:\ITI\01-ASSAF\ARM_SDK\ARM_Projects\TEST_RTOS\Debug/../main.c:377: undefined reference to `LCD_Clear'
+./timertest.o: In function `vSetupTimerTest':
+D:\ITI\01-ASSAF\ARM_SDK\ARM_Projects\TEST_RTOS\Debug/../timertest.c:79: undefined reference to `RCC_APB1PeriphClockCmd'
+D:\ITI\01-ASSAF\ARM_SDK\ARM_Projects\TEST_RTOS\Debug/../timertest.c:80: undefined reference to `RCC_APB1PeriphClockCmd'
+D:\ITI\01-ASSAF\ARM_SDK\ARM_Projects\TEST_RTOS\Debug/../timertest.c:83: undefined reference to `TIM_DeInit'
+D:\ITI\01-ASSAF\ARM_SDK\ARM_Projects\TEST_RTOS\Debug/../timertest.c:84: undefined reference to `TIM_DeInit'
+D:\ITI\01-ASSAF\ARM_SDK\ARM_Projects\TEST_RTOS\Debug/../timertest.c:85: undefined reference to `TIM_TimeBaseStructInit'
+D:\ITI\01-ASSAF\ARM_SDK\ARM_Projects\TEST_RTOS\Debug/../timertest.c:93: undefined reference to `TIM_TimeBaseInit'
+D:\ITI\01-ASSAF\ARM_SDK\ARM_Projects\TEST_RTOS\Debug/../timertest.c:94: undefined reference to `TIM_ARRPreloadConfig'
+D:\ITI\01-ASSAF\ARM_SDK\ARM_Projects\TEST_RTOS\Debug/../timertest.c:100: undefined reference to `TIM_TimeBaseInit'
+D:\ITI\01-ASSAF\ARM_SDK\ARM_Projects\TEST_RTOS\Debug/../timertest.c:101: undefined reference to `TIM_ARRPreloadConfig'
+D:\ITI\01-ASSAF\ARM_SDK\ARM_Projects\TEST_RTOS\Debug/../timertest.c:108: undefined reference to `NVIC_Init'
+D:\ITI\01-ASSAF\ARM_SDK\ARM_Projects\TEST_RTOS\Debug/../timertest.c:109: undefined reference to `TIM_ITConfig'
+D:\ITI\01-ASSAF\ARM_SDK\ARM_Projects\TEST_RTOS\Debug/../timertest.c:112: undefined reference to `TIM_Cmd'
+D:\ITI\01-ASSAF\ARM_SDK\ARM_Projects\TEST_RTOS\Debug/../timertest.c:113: undefined reference to `TIM_Cmd'
+d:/iti/01-assaf/arm_sdk/winarm/armgcc/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m\libg.a(lib_a-sbrkr.o): In function `_sbrk_r':
+sbrkr.c:(.text._sbrk_r+0xc): undefined reference to `_sbrk'
+d:/iti/01-assaf/arm_sdk/winarm/armgcc/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m\libg.a(lib_a-writer.o): In function `_write_r':
+writer.c:(.text._write_r+0x12): undefined reference to `_write'
+d:/iti/01-assaf/arm_sdk/winarm/armgcc/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m\libg.a(lib_a-closer.o): In function `_close_r':
+closer.c:(.text._close_r+0xc): undefined reference to `_close'
+d:/iti/01-assaf/arm_sdk/winarm/armgcc/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m\libg.a(lib_a-fstatr.o): In function `_fstat_r':
+fstatr.c:(.text._fstat_r+0x10): undefined reference to `_fstat'
+d:/iti/01-assaf/arm_sdk/winarm/armgcc/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m\libg.a(lib_a-isattyr.o): In function `_isatty_r':
+isattyr.c:(.text._isatty_r+0xc): undefined reference to `_isatty'
+d:/iti/01-assaf/arm_sdk/winarm/armgcc/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m\libg.a(lib_a-lseekr.o): In function `_lseek_r':
+lseekr.c:(.text._lseek_r+0x12): undefined reference to `_lseek'
+d:/iti/01-assaf/arm_sdk/winarm/armgcc/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m\libg.a(lib_a-readr.o): In function `_read_r':
+readr.c:(.text._read_r+0x12): undefined reference to `_read'
+collect2.exe: error: ld returned 1 exit status
+make: *** [makefile:46: TEST_RTOS.elf] Error 1
+
+00:44:39 Build Finished (took 8s.259ms)
+

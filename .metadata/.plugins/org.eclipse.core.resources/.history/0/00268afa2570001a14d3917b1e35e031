@@ -1,0 +1,55 @@
+/*
+ * SHEDULAR.c
+ *
+ *  Created on: Mar 27, 2020
+ *      Author: Lenovo
+ */
+
+#include "SYSTICK_interface.h"
+#include "SCHEDULAR.h"
+
+#define MAX                  100
+
+static Task_t *SysTasks[MAX];
+
+void SCHEDULAR_Schedular(void);
+
+ErrorStatus SCHEDULAR_CreateTask(Task_t *AppTask)
+{
+	ErrorStatus Local_u8ErrorStatus = OK;
+
+	if(AppTask)
+	{
+		SysTasks[AppTask->Priority] = AppTask;
+	}
+	else
+	{
+		Local_u8ErrorStatus = NOK;
+	}
+
+	return Local_u8ErrorStatus;
+}
+
+ErrorStatus SCHEDULAR_Init(void)
+{
+	ErrorStatus Local_u8ErrorStatus = OK;
+
+	STK_t Local_STKStruct;
+	Local_STKStruct.InterruptControl = INTERRUPT_ENABLED;
+	Local_STKStruct.Prescaler = AHB_DIVIDED_BY_EIGHT;
+	Local_STKStruct.CallBackPtr = SCHEDULAR_Schedular;
+	Local_STKStruct.TimeUS = 10000;
+
+	STK_Init(&Local_STKStruct);
+	STK_SetTime(&Local_STKStruct);
+	STK_SetCallBack(&Local_STKStruct);
+	STK_Start();
+
+	return Local_u8ErrorStatus;
+}
+
+void SCHEDULAR_Schedular(void)
+{
+
+}
+

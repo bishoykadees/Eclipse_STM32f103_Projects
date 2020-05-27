@@ -1,0 +1,9 @@
+18:06:26 **** Incremental Build of configuration Debug for project ITI40_MAKETOOL ****
+make -j all 
+make MasterApplication.exe
+make[1]: Entering directory 'D:/ITI/01-ASSAF/ARM_SDK/ARM_Projects/ITI40_MAKETOOL'
+make[1]: 'MasterApplication.exe' is up to date.
+make[1]: Leaving directory 'D:/ITI/01-ASSAF/ARM_SDK/ARM_Projects/ITI40_MAKETOOL'
+
+18:06:26 Build Finished (took 250ms)
+

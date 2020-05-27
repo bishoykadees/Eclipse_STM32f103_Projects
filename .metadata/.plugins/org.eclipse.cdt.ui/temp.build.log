@@ -1,0 +1,62 @@
+07:32:43 **** Incremental Build of configuration Debug for project temp ****
+make all 
+Building file: ../src/main.c
+Invoking: Cross ARM GNU C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -Og -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections -ffreestanding -fno-move-loop-invariants -Wall -Wextra  -g3 -DDEBUG -DUSE_FULL_ASSERT -DTRACE -DOS_USE_TRACE_SEMIHOSTING_DEBUG -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER -DHSE_VALUE=8000000 -I"../include" -I"../system/include" -I"../system/include/cmsis" -I"../system/include/stm32f1-stdperiph" -std=gnu11 -MMD -MP -MF"src/main.d" -MT"src/main.o" -c -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'main':
+../src/main.c:47:5: warning: assignment from incompatible pointer type [-Wincompatible-pointer-types]
+  gp = (unsigned long int *)(0xE000E409);
+     ^
+../src/main.c:49:5: warning: assignment from incompatible pointer type [-Wincompatible-pointer-types]
+  lp = (unsigned long int *)(0xE000E40D);
+     ^
+../src/main.c:50:5: warning: assignment from incompatible pointer type [-Wincompatible-pointer-types]
+  xp = (unsigned long int *)(0xE000E40A);
+     ^
+../src/main.c:51:5: warning: assignment from incompatible pointer type [-Wincompatible-pointer-types]
+  yp = (unsigned long int *)(0xE000E40B);
+     ^
+../src/main.c:29:26: warning: variable 'yp' set but not used [-Wunused-but-set-variable]
+  volatile unsigned char *yp;
+                          ^~
+../src/main.c:28:26: warning: variable 'xp' set but not used [-Wunused-but-set-variable]
+  volatile unsigned char *xp;
+                          ^~
+../src/main.c:26:26: warning: variable 'lp' set but not used [-Wunused-but-set-variable]
+  volatile unsigned char *lp;
+                          ^~
+../src/main.c:25:30: warning: variable 'hijkp' set but not used [-Wunused-but-set-variable]
+  volatile unsigned long int *hijkp;
+                              ^~~~~
+../src/main.c:24:26: warning: variable 'gp' set but not used [-Wunused-but-set-variable]
+  volatile unsigned char *gp;
+                          ^~
+../src/main.c:23:26: warning: variable 'fp' set but not used [-Wunused-but-set-variable]
+  volatile unsigned char *fp;
+                          ^~
+../src/main.c:22:30: warning: variable 'bcdep' set but not used [-Wunused-but-set-variable]
+  volatile unsigned long int *bcdep;
+                              ^~~~~
+../src/main.c:21:30: warning: variable 'ap' set but not used [-Wunused-but-set-variable]
+  volatile unsigned long int *ap;
+                              ^~
+Finished building: ../src/main.c
+ 
+Building target: temp.elf
+Invoking: Cross ARM GNU C++ Linker
+arm-none-eabi-g++ -mcpu=cortex-m3 -mthumb -Og -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections -ffreestanding -fno-move-loop-invariants -Wall -Wextra  -g3 -T mem.ld -T libs.ld -T sections.ld -nostartfiles -Xlinker --gc-sections -L"../ldscripts" -Wl,-Map,"temp.map" --specs=nano.specs -o "temp.elf"  ./system/src/stm32f1-stdperiph/misc.o ./system/src/stm32f1-stdperiph/stm32f10x_gpio.o ./system/src/stm32f1-stdperiph/stm32f10x_rcc.o  ./system/src/newlib/_cxx.o ./system/src/newlib/_exit.o ./system/src/newlib/_sbrk.o ./system/src/newlib/_startup.o ./system/src/newlib/_syscalls.o ./system/src/newlib/assert.o  ./system/src/diag/Trace.o ./system/src/diag/trace_impl.o  ./system/src/cortexm/_initialize_hardware.o ./system/src/cortexm/_reset_hardware.o ./system/src/cortexm/exception_handlers.o  ./system/src/cmsis/system_stm32f10x.o ./system/src/cmsis/vectors_stm32f10x.o  ./src/_write.o ./src/main.o   
+Finished building target: temp.elf
+ 
+Invoking: Cross ARM GNU Create Flash Image
+arm-none-eabi-objcopy -O ihex "temp.elf"  "temp.hex"
+Finished building: temp.hex
+ 
+Invoking: Cross ARM GNU Print Size
+arm-none-eabi-size --format=berkeley "temp.elf"
+   text	   data	    bss	    dec	    hex	filename
+   4387	    176	    412	   4975	   136f	temp.elf
+Finished building: temp.siz
+ 
+
+07:32:44 Build Finished (took 1s.371ms)
+

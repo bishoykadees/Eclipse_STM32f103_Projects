@@ -1,0 +1,23 @@
+/* Module Name : LIN
+ * File Name   : LIN_config.h
+ * Author      : Bishoy Nabil
+ * Version     : 1.0
+ * Date        : 24/4/2020 */
+
+#ifndef LIN_CONFIG_H_
+#define LIN_CONFIG_H_
+
+#include "STD_TYPES.h"
+
+#define NUMBER_OF_SLOTS                        10
+#define LIN_OVER_USART_CHANNEL                     USART1
+
+typedef struct
+{
+	u8 MessageID;
+	u8 SlotTime;
+}SlotStruct_t;
+
+extern volatile SlotStruct_t SlotsArray[NUMBER_OF_SLOTS];
+
+#endif /* LIN_CONFIG_H_ */

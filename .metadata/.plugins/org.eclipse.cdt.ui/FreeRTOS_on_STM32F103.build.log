@@ -1,0 +1,72 @@
+03:11:32 **** Incremental Build of configuration Debug for project FreeRTOS_on_STM32F103 ****
+make all 
+Building file: ../src/main.c
+Invoking: Cross ARM GNU C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -Og -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections -ffreestanding -fno-move-loop-invariants -Wall -Wextra  -g3 -DDEBUG -DUSE_FULL_ASSERT -DTRACE -DOS_USE_TRACE_SEMIHOSTING_DEBUG -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER -DHSE_VALUE=8000000 -I"../include" -I"D:\ITI\01-ASSAF\ARM_SDK\ARM_Projects\FreeRTOS_on_STM32F103\MyIncludes" -I"D:\ITI\01-ASSAF\ARM_SDK\ARM_Projects\FreeRTOS_on_STM32F103\portable\GCC\ARM_CM3" -I"D:\ITI\01-ASSAF\ARM_SDK\ARM_Projects\FreeRTOS_on_STM32F103" -I"../system/include" -I"../system/include/cmsis" -I"../system/include/stm32f1-stdperiph" -std=gnu11 -MMD -MP -MF"src/main.d" -MT"src/main.o" -c -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'main':
+../src/main.c:14:15: warning: passing argument 1 of 'xTaskCreate' from incompatible pointer type [-Wincompatible-pointer-types]
+  xTaskCreate( LCD_Task, "Check", 1000, NULL, 2, NULL );
+               ^~~~~~~~
+In file included from ../src/main.c:2:0:
+../include/task.h:330:13: note: expected 'TaskFunction_t {aka void (*)(void *)}' but argument is of type 'void (*)(void)'
+  BaseType_t xTaskCreate( TaskFunction_t pxTaskCode,
+             ^~~~~~~~~~~
+Finished building: ../src/main.c
+ 
+Building file: ../MySources/GPIO_program.c
+Invoking: Cross ARM GNU C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -Og -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections -ffreestanding -fno-move-loop-invariants -Wall -Wextra  -g3 -DDEBUG -DUSE_FULL_ASSERT -DTRACE -DOS_USE_TRACE_SEMIHOSTING_DEBUG -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER -DHSE_VALUE=8000000 -I"../include" -I"D:\ITI\01-ASSAF\ARM_SDK\ARM_Projects\FreeRTOS_on_STM32F103\MyIncludes" -I"D:\ITI\01-ASSAF\ARM_SDK\ARM_Projects\FreeRTOS_on_STM32F103\portable\GCC\ARM_CM3" -I"D:\ITI\01-ASSAF\ARM_SDK\ARM_Projects\FreeRTOS_on_STM32F103" -I"../system/include" -I"../system/include/cmsis" -I"../system/include/stm32f1-stdperiph" -std=gnu11 -MMD -MP -MF"MySources/GPIO_program.d" -MT"MySources/GPIO_program.o" -c -o "MySources/GPIO_program.o" "../MySources/GPIO_program.c"
+Finished building: ../MySources/GPIO_program.c
+ 
+Building file: ../MySources/NVIC_program.c
+Invoking: Cross ARM GNU C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -Og -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections -ffreestanding -fno-move-loop-invariants -Wall -Wextra  -g3 -DDEBUG -DUSE_FULL_ASSERT -DTRACE -DOS_USE_TRACE_SEMIHOSTING_DEBUG -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER -DHSE_VALUE=8000000 -I"../include" -I"D:\ITI\01-ASSAF\ARM_SDK\ARM_Projects\FreeRTOS_on_STM32F103\MyIncludes" -I"D:\ITI\01-ASSAF\ARM_SDK\ARM_Projects\FreeRTOS_on_STM32F103\portable\GCC\ARM_CM3" -I"D:\ITI\01-ASSAF\ARM_SDK\ARM_Projects\FreeRTOS_on_STM32F103" -I"../system/include" -I"../system/include/cmsis" -I"../system/include/stm32f1-stdperiph" -std=gnu11 -MMD -MP -MF"MySources/NVIC_program.d" -MT"MySources/NVIC_program.o" -c -o "MySources/NVIC_program.o" "../MySources/NVIC_program.c"
+../MySources/NVIC_program.c: In function 'NVIC_ControlAllInterrupts':
+../MySources/NVIC_program.c:740:52: warning: unused parameter 'Copy_NVICStruct' [-Wunused-parameter]
+ ErrorStatus NVIC_ControlAllInterrupts     (NVIC_t *Copy_NVICStruct)
+                                                    ^~~~~~~~~~~~~~~
+../MySources/NVIC_program.c: In function 'NVIC_ControlAllFaults':
+../MySources/NVIC_program.c:745:52: warning: unused parameter 'Copy_NVICStruct' [-Wunused-parameter]
+ ErrorStatus NVIC_ControlAllFaults         (NVIC_t *Copy_NVICStruct)
+                                                    ^~~~~~~~~~~~~~~
+../MySources/NVIC_program.c: In function 'NVIC_SetPriorityFilter':
+../MySources/NVIC_program.c:750:52: warning: unused parameter 'Copy_NVICStruct' [-Wunused-parameter]
+ ErrorStatus NVIC_SetPriorityFilter        (NVIC_t *Copy_NVICStruct)
+                                                    ^~~~~~~~~~~~~~~
+../MySources/NVIC_program.c: In function 'NVIC_GenerateSoftwareInterrupt':
+../MySources/NVIC_program.c:755:52: warning: unused parameter 'Copy_NVICStruct' [-Wunused-parameter]
+ ErrorStatus NVIC_GenerateSoftwareInterrupt(NVIC_t *Copy_NVICStruct)
+                                                    ^~~~~~~~~~~~~~~
+Finished building: ../MySources/NVIC_program.c
+ 
+Building file: ../MySources/RCC_program.c
+Invoking: Cross ARM GNU C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -Og -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections -ffreestanding -fno-move-loop-invariants -Wall -Wextra  -g3 -DDEBUG -DUSE_FULL_ASSERT -DTRACE -DOS_USE_TRACE_SEMIHOSTING_DEBUG -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER -DHSE_VALUE=8000000 -I"../include" -I"D:\ITI\01-ASSAF\ARM_SDK\ARM_Projects\FreeRTOS_on_STM32F103\MyIncludes" -I"D:\ITI\01-ASSAF\ARM_SDK\ARM_Projects\FreeRTOS_on_STM32F103\portable\GCC\ARM_CM3" -I"D:\ITI\01-ASSAF\ARM_SDK\ARM_Projects\FreeRTOS_on_STM32F103" -I"../system/include" -I"../system/include/cmsis" -I"../system/include/stm32f1-stdperiph" -std=gnu11 -MMD -MP -MF"MySources/RCC_program.d" -MT"MySources/RCC_program.o" -c -o "MySources/RCC_program.o" "../MySources/RCC_program.c"
+Finished building: ../MySources/RCC_program.c
+ 
+Building file: ../MySources/SCHEDULER_config.c
+Invoking: Cross ARM GNU C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -Og -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections -ffreestanding -fno-move-loop-invariants -Wall -Wextra  -g3 -DDEBUG -DUSE_FULL_ASSERT -DTRACE -DOS_USE_TRACE_SEMIHOSTING_DEBUG -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER -DHSE_VALUE=8000000 -I"../include" -I"D:\ITI\01-ASSAF\ARM_SDK\ARM_Projects\FreeRTOS_on_STM32F103\MyIncludes" -I"D:\ITI\01-ASSAF\ARM_SDK\ARM_Projects\FreeRTOS_on_STM32F103\portable\GCC\ARM_CM3" -I"D:\ITI\01-ASSAF\ARM_SDK\ARM_Projects\FreeRTOS_on_STM32F103" -I"../system/include" -I"../system/include/cmsis" -I"../system/include/stm32f1-stdperiph" -std=gnu11 -MMD -MP -MF"MySources/SCHEDULER_config.d" -MT"MySources/SCHEDULER_config.o" -c -o "MySources/SCHEDULER_config.o" "../MySources/SCHEDULER_config.c"
+Finished building: ../MySources/SCHEDULER_config.c
+ 
+Building file: ../MySources/SCHEDULER_program.c
+Invoking: Cross ARM GNU C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -Og -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections -ffreestanding -fno-move-loop-invariants -Wall -Wextra  -g3 -DDEBUG -DUSE_FULL_ASSERT -DTRACE -DOS_USE_TRACE_SEMIHOSTING_DEBUG -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER -DHSE_VALUE=8000000 -I"../include" -I"D:\ITI\01-ASSAF\ARM_SDK\ARM_Projects\FreeRTOS_on_STM32F103\MyIncludes" -I"D:\ITI\01-ASSAF\ARM_SDK\ARM_Projects\FreeRTOS_on_STM32F103\portable\GCC\ARM_CM3" -I"D:\ITI\01-ASSAF\ARM_SDK\ARM_Projects\FreeRTOS_on_STM32F103" -I"../system/include" -I"../system/include/cmsis" -I"../system/include/stm32f1-stdperiph" -std=gnu11 -MMD -MP -MF"MySources/SCHEDULER_program.d" -MT"MySources/SCHEDULER_program.o" -c -o "MySources/SCHEDULER_program.o" "../MySources/SCHEDULER_program.c"
+Finished building: ../MySources/SCHEDULER_program.c
+ 
+Building file: ../MySources/SYSTICK_program.c
+Invoking: Cross ARM GNU C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -Og -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections -ffreestanding -fno-move-loop-invariants -Wall -Wextra  -g3 -DDEBUG -DUSE_FULL_ASSERT -DTRACE -DOS_USE_TRACE_SEMIHOSTING_DEBUG -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER -DHSE_VALUE=8000000 -I"../include" -I"D:\ITI\01-ASSAF\ARM_SDK\ARM_Projects\FreeRTOS_on_STM32F103\MyIncludes" -I"D:\ITI\01-ASSAF\ARM_SDK\ARM_Projects\FreeRTOS_on_STM32F103\portable\GCC\ARM_CM3" -I"D:\ITI\01-ASSAF\ARM_SDK\ARM_Projects\FreeRTOS_on_STM32F103" -I"../system/include" -I"../system/include/cmsis" -I"../system/include/stm32f1-stdperiph" -std=gnu11 -MMD -MP -MF"MySources/SYSTICK_program.d" -MT"MySources/SYSTICK_program.o" -c -o "MySources/SYSTICK_program.o" "../MySources/SYSTICK_program.c"
+Finished building: ../MySources/SYSTICK_program.c
+ 
+Building target: FreeRTOS_on_STM32F103.elf
+Invoking: Cross ARM GNU C++ Linker
+arm-none-eabi-g++ -mcpu=cortex-m3 -mthumb -Og -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections -ffreestanding -fno-move-loop-invariants -Wall -Wextra  -g3 -T mem.ld -T libs.ld -T sections.ld -nostartfiles -Xlinker --gc-sections -L"../ldscripts" -Wl,-Map,"FreeRTOS_on_STM32F103.map" --specs=nano.specs -o "FreeRTOS_on_STM32F103.elf"  ./system/src/stm32f1-stdperiph/misc.o ./system/src/stm32f1-stdperiph/stm32f10x_gpio.o ./system/src/stm32f1-stdperiph/stm32f10x_rcc.o  ./system/src/newlib/_cxx.o ./system/src/newlib/_exit.o ./system/src/newlib/_sbrk.o ./system/src/newlib/_startup.o ./system/src/newlib/_syscalls.o ./system/src/newlib/assert.o  ./system/src/diag/Trace.o ./system/src/diag/trace_impl.o  ./system/src/cortexm/_initialize_hardware.o ./system/src/cortexm/_reset_hardware.o ./system/src/cortexm/exception_handlers.o  ./system/src/cmsis/system_stm32f10x.o ./system/src/cmsis/vectors_stm32f10x.o  ./src/_write.o ./src/main.o  ./portable/MemMang/heap_4.o  ./portable/GCC/ARM_CM3/port.o  ./MySources/GPIO_program.o ./MySources/NVIC_program.o ./MySources/RCC_program.o ./MySources/SCHEDULER_config.o ./MySources/SCHEDULER_program.o ./MySources/SYSTICK_program.o   
+./src/main.o: In function `main':
+D:\ITI\01-ASSAF\ARM_SDK\ARM_Projects\FreeRTOS_on_STM32F103\Debug/../src/main.c:14: undefined reference to `xTaskCreate'
+D:\ITI\01-ASSAF\ARM_SDK\ARM_Projects\FreeRTOS_on_STM32F103\Debug/../src/main.c:15: undefined reference to `vTaskStartScheduler'
+collect2.exe: error: ld returned 1 exit status
+make: *** [makefile:67: FreeRTOS_on_STM32F103.elf] Error 1
+
+03:11:38 Build Finished (took 5s.859ms)
+
